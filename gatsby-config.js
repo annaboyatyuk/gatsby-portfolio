@@ -3,6 +3,28 @@ module.exports = {
     title: 'Anna Boyatyuk',
     description: 'Anna Boyatyuk\'s personal profile',
     author: 'Anna Boyatyuk',
+    menuLinks: [
+      {
+        name: 'home',
+        link: '/'
+      },
+      {
+        name: 'about',
+        link: '/about'
+      },
+      {
+        name: 'adventures',
+        link: '/adventures'
+      },
+      {
+        name: 'dreams',
+        link: '/dreams'
+      },
+      {
+        name: 'projects',
+        link: '/projects'
+      }
+    ]
   },
   plugins: [
     'gatsby-plugin-react-helmet',
